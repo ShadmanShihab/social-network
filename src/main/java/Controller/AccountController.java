@@ -14,7 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/account")
 public class AccountController {
-
     @Autowired
     AccountRepository accountRepository;
 
